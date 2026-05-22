@@ -147,6 +147,21 @@ For supported customers, the macro opens a pre-filled Outlook draft:
 
 \---
 
+## 🔮 Future Roadmap: Decoupling Configuration via Excel Config
+
+To transition this project into a fully dynamic and zero-maintenance solution for non-technical users, the next architectural milestone is to **externalize all hardcoded business rules into an external Excel Configuration file/sheet**.
+
+**Why this matters:**
+Currently, adding a new customer or changing an email recipient requires modifying the VBA `Select Case` blocks. By shifting to an Excel Config approach:
+
+- **Zero Code Modification:** Users can manage customer codes, target network paths, Hex color codes, and To/CC email routing directly inside a standard Excel table.
+- **Dynamic Lookup:** The VBA engine will dynamically scan the configuration table at runtime (using lookup queries) rather than executing hardcoded logic.
+- **Empowering Non-Technical Staff:** The logistics team can maintain, update, or expand the automation system independently without ever opening the VBA Editor (`Alt+F11`).
+
+<br>
+
+---
+
 ## ⚙️ Setup \& Configuration
 
 > ⚠️ \*\*Read this before running the script.\*\* The file contains placeholder values throughout. You need to replace them with your own data first.
