@@ -63,7 +63,7 @@ Rather than asking the AI to "make a macro for delivery notes," I gave it detail
 CUST-01  Customer A (Plant 1)   → Header color: #44B3E1 | Date goes in column I separately
 CUST-02  Customer B (Site X)    → Header color: #FFFF00 | Date goes in column I separately
 CUST-03  Customer B (Site Y)    → Header color: #44B3E1 | Merge columns I, J, K | Remove gridlines
-CUST-04  Customer C             → Two tables (AM 09:30 / PM 09:30) | Two different colors
+CUST-13  Customer C             → Two tables (AM 09:30 / PM 21:30) | Two different colors
 ```
 
 I knew that vague input produces vague output. Structured input produces precise code.
